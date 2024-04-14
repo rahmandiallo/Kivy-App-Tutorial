@@ -1,0 +1,32 @@
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+
+    orientation: "vertical"
+
+    Button: 
+        text: "A"
+        size_hint: .8, .5
+    Button:
+        text: "B"
+    Label:
+        text: "C"
+
+
+
+<MainWidget>:
+    Button: 
+        text: "Hello"
+        size: "300dp", "200dp"  # dp means density pixel. It adjusts the size of buttons/labels based on the size of the screen
+        pos: "100dp", "200dp"
+        color: 0 , 0 , 0, 1
+    Label: 
+        text: "Hello2"
+        size: "300dp", "200dp"
+        pos: "200dp", "400dp"
+        color: 1 , 0 , 0, 1
+    Button: 
+        text: "Click Here!"
+        size: 100, 100
+        pos: 600, 700
+        color: 1 , 0 , 0, 1
