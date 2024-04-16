@@ -4,8 +4,9 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.anchorlayout import AnchorLayout
 
-class AnchorLayoutExample(AnchorLayout):
-    pass
+
+#class GridLayoutExample(GridLayout):
+    #pass
 
 class BoxLayoutExample(BoxLayout):
     pass
