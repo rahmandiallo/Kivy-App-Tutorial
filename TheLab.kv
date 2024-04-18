@@ -1,4 +1,23 @@
-GridLayoutExample:
+PageLayoutExample:
+
+<PageLayoutExample@PageLayout>:
+    MainWidget:
+    BoxLayoutExample:
+    GridLayoutExample:
+    AnchorLayoutExample:
+
+
+<ScrollViewExample@ScrollView>:
+    StackLayoutExample:
+        size_hint: 1, None
+        height: self.minimum_height
+
+<StackLayoutExample>:
+    # left -right top-bottom
+    # oritentation: "lr-bt" 
+    # padding: ("20dp", "20dp", "20dp", "20dp")
+    # spacing : "20dp", "20dp"
+    
 
 <GridLayoutExample@GridLayout>
     # rows
@@ -23,7 +42,7 @@ GridLayoutExample:
     Button:
         text: "F"
 
-<AnchorLayoutExample>
+<AnchorLayoutExample@AnchorLayout>
 
     # right , left , center
     anchor_x : "center"
